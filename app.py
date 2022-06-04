@@ -62,7 +62,7 @@ def get_prediction():
     
     print(features)
     # Load pickled model file
-    with open('model.pkl',"rb") as picklefile:
+    with open('my_model.pkl',"rb") as picklefile:
         model = pickle.load(picklefile)
     print(model)
     # Predict the class using the model
